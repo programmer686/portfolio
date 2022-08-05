@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kanit&display=swap');
+*, html, head, div {
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background: #0b2027;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.findme{
+    color: #f6f1d1;
+    font-family: Kanit;
+    font-size: large;
+}
+
+span {font-family: Kanit; color: #70a9a1; font-size: larger;}
+
+i  {
+    margin: 20px;
+}
