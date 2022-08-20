@@ -10,9 +10,8 @@ function Header() {
             </div>
         <ul className={styles.linkscontainer}>
             <li><Link to="/" className={styles.links}>Home</Link></li>
-            <li><Link to="/html" className={styles.links}>HTML</Link></li>
+            <li><Link to="/projects" className={styles.links}>Projects</Link></li>
             <li><Link to="/css" className={styles.links}>CSS</Link></li>
-            <li><Link to="/javascript" className={styles.links}>JAVASCRIPT</Link></li>
         </ul>
         </div>
     
