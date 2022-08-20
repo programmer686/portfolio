@@ -13,6 +13,13 @@ let data = [
         link: "https://triviagame-lime.vercel.app/",
         techUsed: "HTML, CSS, React"
     },
+    {
+        key: 3,
+        id: 3,
+        title: "NeedForSpeed",
+        link: "https://need-for-speed.vercel.app/",
+        techUsed: "HTML, CSS, React"
+    }
 
 ]
 
