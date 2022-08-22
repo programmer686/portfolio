@@ -5,7 +5,7 @@ let data = [
         title: "movieFinder",
         link: "https://movie-finder-eta.vercel.app/",
         gitHub: "https://github.com/programmer686/movieFinder",
-        techUsed: "HTML, CSS, Javascript"
+        techUsed: "HTML CSS Javascript"
     },
     {
         key: 2,
@@ -13,7 +13,7 @@ let data = [
         title: "triviaGame",
         link: "https://triviagame-lime.vercel.app/",
         gitHub: "https://github.com/programmer686/trivia",
-        techUsed: "HTML, CSS, React"
+        techUsed: "HTML CSS React"
     },
     {
         key: 3,
@@ -21,7 +21,7 @@ let data = [
         title: "NeedForSpeed",
         link: "https://need-for-speed.vercel.app/",
         gitHub: "https://github.com/programmer686/Need-for-speed",
-        techUsed: "HTML, CSS, React"
+        techUsed: "HTML CSS React"
     }
 
 ]
