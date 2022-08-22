@@ -4,6 +4,7 @@ let data = [
         id: 1,
         title: "movieFinder",
         link: "https://movie-finder-eta.vercel.app/",
+        gitHub: "https://github.com/programmer686/movieFinder",
         techUsed: "HTML, CSS, Javascript"
     },
     {
@@ -11,6 +12,7 @@ let data = [
         id: 2,
         title: "triviaGame",
         link: "https://triviagame-lime.vercel.app/",
+        gitHub: "https://github.com/programmer686/trivia",
         techUsed: "HTML, CSS, React"
     },
     {
@@ -18,6 +20,7 @@ let data = [
         id: 3,
         title: "NeedForSpeed",
         link: "https://need-for-speed.vercel.app/",
+        gitHub: "https://github.com/programmer686/Need-for-speed",
         techUsed: "HTML, CSS, React"
     }
 

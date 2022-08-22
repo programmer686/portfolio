@@ -10,6 +10,7 @@ function HTML() {
       title={item.title}
       link={item.link}
       techUsed={item.techUsed}
+      gitHub={item.gitHub}
       />
     )
   })

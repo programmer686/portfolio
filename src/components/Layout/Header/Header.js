@@ -6,12 +6,12 @@ function Header() {
     
         <div className={styles.container}>
         <div>
-                <h1 className={styles.logo}>Frontend Dev</h1>
+                <Link to="/"><h1 className={styles.logo}>Frontend Dev</h1></Link>
             </div>
         <ul className={styles.linkscontainer}>
             <li><Link to="/" className={styles.links}>Home</Link></li>
             <li><Link to="/projects" className={styles.links}>Projects</Link></li>
-            <li><Link to="/css" className={styles.links}>CSS</Link></li>
+            <li><Link to="/css" className={styles.links}>Space</Link></li>
         </ul>
         </div>
     

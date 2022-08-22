@@ -1,0 +1,20 @@
+.body {
+    height: 100vh;
+    background: #ff8f00 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 50vw;
+}
+
+@media (max-width: 500px) {
+    .body {
+        height: 70vh;
+    }
+    img {
+        width: 80vw;
+    }
+}

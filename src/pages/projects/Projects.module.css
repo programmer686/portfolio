@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Kanit&display=swap');
 .body {
     padding: 10% 0;
-    border: 1px solid red;
     width: 100vw;
-    height: 150vh;
+    height: auto;
     display: inline-grid;
     grid-template-columns: auto auto auto auto;
     justify-content: space-evenly;
@@ -20,6 +19,13 @@
     align-items: center;
 }
 
+.cardInfo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .projectLink {
     border: none;
     width: 400px;
@@ -29,8 +35,9 @@
 }
 
 .techUsed {
-    width: 90%;
-    background: #4e5152;
+    width: 70%;
+    height: fit-content;
+    background: #70a9a1;
     padding: 10px;
     border: none;
     border-radius: 20px;
@@ -39,4 +46,15 @@
     font-family: Kanit;
     font-weight: 900;
     
+}
+
+i {
+    color: black;
+}
+
+@media (max-width: 500px) {
+    .body {
+        grid-template-columns: auto;
+        height: auto;
+    }
 }

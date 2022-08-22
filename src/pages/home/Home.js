@@ -28,8 +28,9 @@ function Home() {
             </section>
             <section className={styles.bioContainer}>
               <p className={styles.bioText}>
-                I wrote my first "Hello World" in HTML, after that it was a whole new world. 
-                From there I looped my way through data, conditionally rednered "You Win" or "You lose", and played a game of Blackjack.
+                I wrote my first "Hello World" in HTML, and soon after
+                I was looping my way through data, conditionally rednered "You Win" or "You lose", and played a game of Blackjack.
+                
               </p>
               <img className={styles.flowers} src={Flowers} alt=""/>
             </section>
