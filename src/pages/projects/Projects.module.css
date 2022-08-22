@@ -56,5 +56,6 @@ i {
     .body {
         grid-template-columns: auto;
         height: auto;
+        margin: 0px 10px;
     }
 }
