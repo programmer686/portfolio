@@ -22,6 +22,14 @@ let data = [
         link: "https://need-for-speed.vercel.app/",
         gitHub: "https://github.com/programmer686/Need-for-speed",
         techUsed: "HTML CSS React"
+    },
+    {
+        key: 4,
+        id: 4,
+        title: "portfolio",
+        link: "https://portfolio-seven-kappa-82.vercel.app/",
+        gitHub: "https://github.com/programmer686/portfolio",
+        techUsed: "HTML CSS React"
     }
 
 ]
