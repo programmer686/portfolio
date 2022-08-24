@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Kanit&display=swap');
 .body {
-    padding: 10% 0;
     width: 100vw;
     height: auto;
-    display: inline-grid;
-    grid-template-columns: auto auto;
-    justify-content: space-evenly;
-    gap: 50px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid red;
 
 
 }
@@ -17,6 +18,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 1px solid blue;
+    margin: 100px;
 }
 
 .cardInfo {
@@ -28,8 +31,8 @@
 
 .projectLink {
     border: none;
-    width: 480px;
-    height: 400px;
+    width: 400px;
+    height: 320px;
     border: 1px solid black;
     margin-bottom: 10px;
 }
@@ -55,22 +58,28 @@ i {
 @media (max-width: 500px) {
 
     .body {
-        grid-template-columns: auto;
-        justify-content: center;
+        flex-direction: column;
         height: auto;
         overflow: hidden;
         width: 100vw;
         border: 1px solid green;
-        padding:20px;
+        margin: 0;
     }
 
-    .projectLink {
-        width: 400px;
-        height: 320px;
+    .projectCardBody {
+        margin: 20px 0px;
     }
 
     .cardDiv {
         border: 1px solid red;
         
+    }
+}
+
+@media (max-width: 300px) {
+    .projectLink {
+        width: 280px;
+        height: 200px;
+        margin-top: 30px;
     }
 }
