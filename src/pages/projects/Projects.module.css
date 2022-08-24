@@ -7,7 +7,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    border: 1px solid red;
 
 
 }
@@ -18,7 +17,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid blue;
     margin: 100px;
 }
 
@@ -62,17 +60,11 @@ i {
         height: auto;
         overflow: hidden;
         width: 100vw;
-        border: 1px solid green;
         margin: 0;
     }
 
     .projectCardBody {
         margin: 20px 0px;
-    }
-
-    .cardDiv {
-        border: 1px solid red;
-        
     }
 }
 
