@@ -130,7 +130,7 @@
 
 
  .logo {
-    width: 380px;
+    width: 300px;
     border-radius: 5px;
     box-shadow: -1px 5px 5px black;
     margin: 0px 15px;
@@ -199,6 +199,7 @@
     align-items: center;
     height: 80vh;
     padding: 5%;
+    height: fit-content
     
 }
 

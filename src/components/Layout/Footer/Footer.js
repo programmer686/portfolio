@@ -6,7 +6,7 @@ function Footer() {
   const copyClipboard = () => {
     navigator.clipboard.writeText(email);
 
-    alert("Copied")
+    alert("Email copied to clipboard")
   }
   return (
     <html>

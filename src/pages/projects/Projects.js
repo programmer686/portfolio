@@ -16,7 +16,7 @@ function HTML() {
   })
   return (
     <div className={styles.body}>
-      {projectCard}
+      <div className={styles.cardDiv}>{projectCard}</div>
       
     </div>
   )

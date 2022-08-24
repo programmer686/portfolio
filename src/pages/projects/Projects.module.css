@@ -53,9 +53,24 @@ i {
 }
 
 @media (max-width: 500px) {
+
     .body {
         grid-template-columns: auto;
+        justify-content: center;
         height: auto;
-        margin: 0px 10px;
+        overflow: hidden;
+        width: 100vw;
+        border: 1px solid green;
+        padding:20px;
+    }
+
+    .projectLink {
+        width: 400px;
+        height: 320px;
+    }
+
+    .cardDiv {
+        border: 1px solid red;
+        
     }
 }
