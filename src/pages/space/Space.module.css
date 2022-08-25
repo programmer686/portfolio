@@ -1,20 +1,40 @@
 .body {
-    height: 100vh;
-    background: #ff8f00 ;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
-img {
-    width: 50vw;
+.spaceWebsite {
+    width: 100vw;
+    height: 90vh;
+    border: none;
+    margin: 0;
+    padding: 0;
 }
 
-@media (max-width: 500px) {
-    .body {
-        height: 70vh;
-    }
-    img {
-        width: 80vw;
-    }
+.techUsed {
+    width: 100%;
+    height: fit-content;
+    background: #70a9a1;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: #0B2027;
+    font-family: Kanit;
+    font-weight: 900;
+    
+}
+
+.shoutOut {
+    margin: 20px 0px;
+    font-weight: bolder;
+}
+
+.frontendMenot {
+    color: blue;
+
 }

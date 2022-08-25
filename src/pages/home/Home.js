@@ -28,11 +28,7 @@ function Home() {
             </section>
             <section className={styles.bioContainer}>
               <p className={styles.bioText}>
-                I wrote my first "Hello World" in HTML, and soon after
-                I was looping my way through data, conditionally rendered  "You Win" or "You lose", and played a game of Blackjack.
-                I had and have a lot to learn, and that is one of the things that I love about programming.
-                There is always some new framework, library, or technology to learn.
-                And that has taught me I have a lot left to learn, but thankfully not as much since I started.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
               <img className={styles.flowers} src={Flowers} alt=""/>
             </section>
