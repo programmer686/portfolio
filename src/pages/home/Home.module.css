@@ -111,6 +111,10 @@
     .FccName, .ScrimbaName {
         font-size: 1.4rem
     }
+
+    .image {
+        max-width: 400px;
+    }
 }
 
 
