@@ -1,49 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Kanit&display=swap');
 
-*, div {margin: 0; padding: 0;}
+ div {margin: 0; padding: 0;}
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 20px;
     margin: 0;
+    width: 100vw;
+    height: fit-content;
+    padding: 0;
 }
 
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 0;
-    height: 80vh;
-    line-height: 1.8rem;
-    bottom: 0;
+    height: 100vh;
  }
 
-
-
  .logo {
-    width: 380px;
+    width: 30vh;
     border-radius: 5px;
     box-shadow: -1px 5px 5px black;
-    margin: 0px 15px;
-}
-
-.textContainer {
-    width: 35vw;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    margin: 0px 0px;
+    margin-right: 5vw;
 }
 
 .introduction {
-    font-size: 1rem;
-    max-width: fit-content;
-    margin: 0px 15px;
+    font-size: 5px;
+    width: 100vw;
     font-family: Inter;
-    font-weight: 600;
-    font-size : 1.5rem;
     line-height: 2.5rem;
 }
 
@@ -86,26 +67,56 @@
     
 }
 
-.bioContainer {
+.bioBody {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: fit-content;
+
     
     
 }
 
 .bioText {
-    max-width: 80%;
-    margin: 7% 12.5%;
-    line-height: 2rem;
+    line-height: 1rem;
     letter-spacing: 0.2rem;
-    font-size: 1.5rem;
+    font-size: 18px;
     font-weight: 800;
     color: black;
     font-family: Inter;
+    text-align: center;
 
+}
+
+.FccName {
+    color: #0a0a23;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.ScrimbaName {
+    color: #261a31;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+@media (max-width: 500px) {
+
+    .bioText {
+        width: 90vw;
+        text-align: center;
+    }
+
+    .FccName, .ScrimbaName {
+        font-size: 1.4rem
+    }
+}
+
+
+
+.image {
+    width: 80vh;
 }
 
 .container {
@@ -119,7 +130,7 @@
 .header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
     margin: 0;
     height: 80vh;
@@ -130,27 +141,22 @@
 
 
  .logo {
-    width: 300px;
+    width: 45vh;
     border-radius: 5px;
     box-shadow: -1px 5px 5px black;
-    margin: 0px 15px;
 }
 
 .textContainer {
     width: 35vw;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .introduction {
-    font-size: 1rem;
-    max-width: fit-content;
-    margin: 0px 15px;
+    font-size: larger;
+    width: fit-content;
     font-family: Inter;
-    font-weight: 600;
-    font-size : 1.5rem;
-    line-height: 2.5rem;
 }
 
 .name {
