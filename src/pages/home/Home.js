@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./Home.module.css";
 import image from "../images/logo.jpg";
 import Scrimba from "../images/Scrimba.jpg";
 import Fcc from "../images/fcc.png";
 import flowers from "../images/flowers.webp";
 function Home() {
+  useEffect(() => {
+    alert("This webpage is under construction, but feel free to take a look")
+  }, [])
   return (
     <div>
       <main className={styles.container}>
