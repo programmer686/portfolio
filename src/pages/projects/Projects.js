@@ -14,7 +14,14 @@ function HTML() {
       />
     );
   });
-  return <div className={styles.body}>{projectCard}</div>;
+  return (
+    <div>
+      <main className={styles.hero}>
+        <h1 className={styles.projects}>My Projects</h1>
+      </main>
+      <div className={styles.body}>{projectCard}</div>
+    </div>
+  );
 }
 
 export default HTML;

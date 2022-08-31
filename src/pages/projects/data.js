@@ -30,6 +30,14 @@ let data = [
         link: "https://portfolio-seven-kappa-82.vercel.app/",
         gitHub: "https://github.com/programmer686/portfolio",
         techUsed: "HTML CSS React"
+    },
+    {
+        key: 5,
+        id: 5,
+        title: "Space Website",
+        link: "https://space-vert-gamma.vercel.app/",
+        gitHub: "https://github.com/programmer686/space",
+        techUsed: "HTML CSS Next.js"
     }
 
 ]

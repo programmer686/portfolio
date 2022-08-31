@@ -1,16 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Kanit&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Inter&family=Josefin+Sans:wght@400;700&family=Kanit&display=swap');
  div {margin: 0; padding: 0;}
 
 .container {
     margin: 0;
     width: 100vw;
-    height: fit-content;
+    height: 97vh;
     padding: 0;
+    background-image: url("../images/desktop-image.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 20px;
 }
 
 .header {
     height: 100vh;
+    
  }
 
  .logo {
@@ -26,22 +33,15 @@
     width: 100vw;
     font-family: Inter;
     line-height: 2.5rem;
+    color: white;
+    text-shadow: 0 0 5px black;
 }
 
 .name {
-    color: #70a9a1;
-    margin-top: 10%;
-    font-size: 2rem;
-}
-
-.certificateContainer {
-    height: 50vh;
-    background: #153b47;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15%;
-    
+    font-size: 7rem;
+    font-family: cursive;
+    font-weight: 100;
+    color: white
 }
 
 .Scrimba, .Fcc {
@@ -72,10 +72,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: fit-content;
+    height: 150vh;    
+}
 
-    
-    
+.whoIAm {
+    width: 500px;
+    height: 700px;
+    background-image: url("../images/logo.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.infoCard {
+    background: white;
+    max-width: 60%;
+    max-height: 40%;
+    padding: 4%;
+    line-height: 30px;
+    color: rgb(88, 86, 86);
 }
 
 .bioText {
@@ -123,14 +139,6 @@
     width: 80vh;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 20px;
-    margin: 0;
-}
-
 .header {
     display: flex;
     align-items: center;
@@ -161,17 +169,13 @@
     font-size: larger;
     width: fit-content;
     font-family: Inter;
-}
-
-.name {
-    color: #70a9a1;
-    margin-top: 10%;
-    font-size: 2rem;
+    backdrop-filter: blur(10px);
+    box-shadow: -5px 2.5px 5px black;
 }
 
 .certificateContainer {
     height: 50vh;
-    background: #153b47;
+    background: rgb(204, 204, 204); 
     display: flex;
     justify-content: space-evenly;
     align-items: center;

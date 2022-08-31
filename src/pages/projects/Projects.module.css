@@ -12,6 +12,24 @@
 
 }
 
+.hero {
+    height: 98vh;
+    background-image: url("../images/desktop-projects.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.projects {
+    font-size: 7rem;
+    font-family: cursive;
+    font-weight: 100;
+    color: white;
+    margin-right: 20px;
+}
+
 .projectCardBody {
     height: fit-content;
     display: flex;
@@ -39,12 +57,12 @@
 .techUsed {
     width: 70%;
     height: fit-content;
-    background: #70a9a1;
+    background: #081c33;
     padding: 10px;
     border: none;
     border-radius: 20px;
     text-align: center;
-    color: #0B2027;
+    color: white;
     font-family: Kanit;
     font-weight: 900;
     
