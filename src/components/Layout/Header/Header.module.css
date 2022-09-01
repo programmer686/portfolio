@@ -43,8 +43,8 @@
     font-family: Kanit;
     font-weight: 800;
     font-size: 2rem;
-    color: white;
-    border-bottom: 4px solid white;
+    color: red;
+    border-bottom: 4px solid black;
     margin-left: 20px;
     margin-top: 20px;
 }
@@ -71,10 +71,4 @@
     height: 3px;
     background: white;
     margin: 5px 0px;
-}
-
-@media (max-width: 670px) {
-    .container {
-        flex-direction: column;
-    }
 }

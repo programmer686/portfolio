@@ -53,3 +53,35 @@
     max-width:30vw;
     margin: 30px 40px
 }
+
+@media (max-width: 500px) {
+    .hero {
+        background-image: url("../images/mobile-exp.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 85vh;
+    }
+
+    .pageTitle {
+        font-size: 3rem;
+    }
+
+    .ex {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .section {
+        width: 100%;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .bio {
+        max-width: 100%;
+    }
+
+    .titles {
+        margin-bottom: 20px;
+    }
+}
