@@ -44,9 +44,6 @@
     color: white
 }
 
-
-
-
 .bioBody {
     display: flex;
     flex-direction: column;
@@ -200,6 +197,19 @@
 
    .name {
     font-size: 3rem;
-    margin-right: 50px;;
+    margin-right: 50px;
+   }
+
+   .bioBody {
+        height: fit-contentWS;
+        padding: 0;
+   }
+
+   .bioContainer {
+        padding: 0;
+   }
+
+   .logo {
+    width: 30vh;
    }
 }
